@@ -1,0 +1,178 @@
+<!--TEAM 6-->
+<!--FINAL PROJECT-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Artistry and Vendor Registration</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Knewave&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="projectstyle.css" rel="stylesheet">
+		<link href="signupstyle.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <div class="container-fluid wrapper">
+			<div class="w3-top">
+				<div class="w3-bar w3-white w3-card">
+					<a href="project.html" class="w3-bar-item w3-button w3-mobile w3-white">HOME</a>
+					<a href="Artist Attending.html" class="w3-bar-item w3-button w3-mobile w3-white">ARTISTS</a>
+					<a href="signup.html" class="w3-bar-item w3-button w3-mobile w3-white">REGISTER</a>
+					<a href="about.html" class="w3-bar-item w3-button w3-mobile w3-white">ABOUT</a>
+					<a href="vendors.html" class="w3-bar-item w3-button w3-mobile w3-white">VENDORS</a>
+				</div><!--nav bar items div-->
+			</div><!--nav bar div-->
+			<br><br>
+			
+			<header>
+				<div class="w3-container w3-center w3-padding-32">
+					<h2 class="w3-xxlarge w3-text-black" style="font-family: 'Merriweather'">Artist & Vendor Registration</h2>
+					<p class="w3-large w3-text-white"><strong>Join us at the Float or Flight Air Show!</strong></p>
+					<p class="w3-text-white" style="font-family: 'Merriweather'">
+						Register to participate as an artist or vendor at this exciting 2-day event
+					</p>
+					<p class="w3-text-white">
+						<i class="fa fa-calendar"></i> Second Friday & Saturday in October<br>
+						<i class="fa fa-map-marker"></i> Heart of Georgia Regional Airport, Eastman, GA
+					</p>
+					<p class="w3-text-light-blue">
+						Showcase your art, sell your products, and be part of an unforgettable community celebration featuring hot air balloons and thrilling air shows!
+					</p>
+				</div><!--header div-->
+			</header>
+			
+			<main class="w3-container w3-padding-32">
+				<div class="w3-row">
+					<div class="w3-col l2 m1 s12">&nbsp;</div>
+					<div class="w3-col l8 m10 s12">
+						
+						<!-- Registration Information Section -->
+						<div class="w3-card-4 w3-white w3-padding-large w3-margin-bottom">
+							<div class="w3-container">
+								<h3 class="w3-text-black" style="font-family: 'Knewave'">Registration Information</h3>
+								<hr>
+								<p><strong>Registration Deadline:</strong> First week of October</p>
+								<p><strong>Booth Fees:</strong></p>
+								<ul>
+									<li>10x10 ft: $150 (both days)</li>
+									<li>10x20 ft: $250 (both days)</li>
+									<li>20x20 ft: $400 (both days)</li>
+								</ul>
+								<p><strong>What's Included:</strong></p>
+								<ul>
+									<li>Booth space for both Friday and Saturday</li>
+									<li>Access to electricity (limited availability)</li>
+									<li>Parking pass for vendors/artists</li>
+									<li>Promotion on event materials and website</li>
+								</ul>
+								<p class="w3-text-grey"><em>Note: Applications are subject to approval. You will receive a confirmation email within 5-7 business days.</em></p>
+							</div>
+						</div><!--info card div-->
+						
+						<!-- Registration Form Section -->
+						<div class="w3-card-4 w3-white w3-padding-large">
+							<div class="w3-container">
+							<h3 class="w3-text-black" style="font-family: 'Knewave'">Registration Form</h3>
+							<hr>
+							
+							<form action="signup.html" method="get" class="w3-container">
+									<!-- Registration Type -->
+									<div class="w3-section">
+										<label class="w3-text-black w3-large"><b>I am registering as:</b></label><br>
+										<p>
+											<input class="w3-radio" type="radio" name="registrationType" value="artist" id="artist" required>
+											<label for="artist">Artist</label>
+										</p>
+										<p>
+											<input class="w3-radio" type="radio" name="registrationType" value="vendor" id="vendor">
+											<label for="vendor">Vendor</label>
+										</p>
+									</div>
+									
+									<!-- Contact Information -->
+									<div class="w3-section">
+										<label for="fullName" class="w3-text-black"><b>Full Name:</b></label>
+										<input id="fullName" class="w3-input w3-border w3-round" type="text" name="fullName" placeholder="Enter your full name" required>
+									</div>
+									
+									<div class="w3-section">
+										<label for="email" class="w3-text-black"><b>Email Address:</b></label>
+										<input id="email" class="w3-input w3-border w3-round" type="email" name="email" placeholder="your.email@example.com" required>
+									</div>
+									
+									<div class="w3-section">
+										<label for="phone" class="w3-text-black"><b>Phone Number:</b></label>
+										<input id="phone" class="w3-input w3-border w3-round" type="tel" name="phone" placeholder="(555) 555-5555" required>
+									</div>
+									
+									<!-- Business Information -->
+									<div class="w3-section">
+										<label for="businessName" class="w3-text-black"><b>Business/Artist Name:</b></label>
+										<input id="businessName" class="w3-input w3-border w3-round" type="text" name="businessName" placeholder="Your business or artist name" required>
+									</div>
+									
+									<div class="w3-section">
+										<label for="website" class="w3-text-black"><b>Website (optional):</b></label>
+										<input id="website" class="w3-input w3-border w3-round" type="url" name="website" placeholder="https://www.yourwebsite.com">
+									</div>
+									
+									<!-- Description -->
+									<div class="w3-section">
+										<label for="description" class="w3-text-black"><b>Description of Products/Services/Art:</b></label>
+										<textarea id="description" class="w3-input w3-border w3-round" name="description" rows="5" placeholder="Please describe what you will be offering at the event..." required></textarea>
+									</div>
+									
+									<!-- Booth Requirements -->
+									<div class="w3-section">
+										<label for="boothSize" class="w3-text-black"><b>Booth Space Required:</b></label>
+										<select id="boothSize" class="w3-select w3-border w3-round" name="boothSize" required>
+											<option value="" disabled selected>Choose your option</option>
+											<option value="10x10">10x10 ft</option>
+											<option value="10x20">10x20 ft</option>
+											<option value="20x20">20x20 ft</option>
+										</select>
+									</div>
+									
+									<div class="w3-section">
+										<label for="specialRequirements" class="w3-text-black"><b>Special Requirements/Notes:</b></label>
+										<textarea id="specialRequirements" class="w3-input w3-border w3-round" name="specialRequirements" rows="3" placeholder="Any special equipment needs, power requirements, etc."></textarea>
+									</div>
+									
+									<!-- Submit Button -->
+									<div class="w3-section w3-center">
+										<button type="submit" class="w3-button w3-round">
+											<i class="fa fa-paper-plane"></i> Submit Registration
+										</button>
+										<button type="reset" class="w3-button w3-round w3-light-grey w3-border w3-border-black">
+											<i class="fa fa-refresh"></i> Clear Form
+										</button>
+									</div> <!--button-->
+								</form>
+							</div> <!--container closer-->
+						</div><!--form card div-->
+						
+					</div>
+					<div class="w3-col l2 m1 s12">&nbsp;</div>
+				</div><!--row div-->
+			</main>
+			
+			<footer class="footer">
+				  <div class="w3-text-bold w3-center">
+					<p>Contact:</p>
+					<p>
+					  <a href="mailto:info@eastmanchamber.org" class="fa fa-envelope" aria-label="Email"></a>
+					  &nbsp;|&nbsp;
+					  <a href="tel:+1-555-555-5555" class="fa fa-phone" aria-label="Phone"></a>
+					</p>
+				  </div>
+			</footer>
+			
+		</div><!-- container fluid wrapper-->
+    </body>
+</html>

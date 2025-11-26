@@ -1,0 +1,67 @@
+/*Color Scheme: #1B4965 (Indigo Dye), #5FA8D3 (Picton Blue),
+#CAE9FF (Columbia Blue), #62B6CB (Moonstone), 
+#BEE9E8 (Mint Green), #040C10 (Rich Black)*/
+
+.wrapper{
+    text-align: center;
+    background-color: #1b4965;
+    margin-top: 5%;
+    color: #cae9ff;
+}
+
+.header{
+    font-family:'Times New Roman', Times, serif ;
+    font-size: 3vh;
+    font-weight: bold;
+    color:#bee9e8;
+}
+
+.navMenu {
+    list-style: none;
+    margin:0 ;
+    padding: 0;
+    width: 25%;
+    font-style: italic;
+    float:left;
+}
+
+.navList{
+    display: block;
+    padding: 2em;
+    text-decoration: none;
+}
+
+.navList a.active {
+    color: #040c10;;
+
+}
+
+.navList a:hover:not(.active){
+    background-image:url("../Images/binary.jpg");
+    color:#040c10;
+}
+
+a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:visited{
+    color: navy;
+    text-decoration: none;
+}
+
+a:active{
+    color: #1b4965;
+    text-decoration: none;
+}
+
+
+
+.noBullet {
+    list-style-type: none;
+}
+
+#listItalic{
+    font-style: italic;
+}

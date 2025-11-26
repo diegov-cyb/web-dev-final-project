@@ -1,0 +1,60 @@
+/*Color Scheme: #1B4965 (Indigo Dye), #5FA8D3 (Picton Blue),
+#CAE9FF (Columbia Blue), #62B6CB (Moonstone), 
+#BEE9E8 (Mint Green), #040C10 (Rich Black)*/
+
+
+body {
+	background-color: #1B4965;
+	
+}
+
+header {
+	
+	
+}
+.w3-xxlarge {
+	background-color: #CAE9FF;
+	padding-bottom: .2em;
+	padding-top: .2em;
+}
+
+a:link {
+	color: #040C10;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #040C10;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #BEE9E8;
+	text-decoration: underline;
+} 
+
+.fa-google {
+	color: black;
+	font-weight: bold;
+	padding-right: 8px;
+	padding-left: 8px;
+	text-decoration: none;
+	
+}
+.fa-phone {
+	color: black;
+	font-weight: bold;
+	padding-right: 8px;
+	padding-left: 8px;
+	text-decoration: none;
+	
+}
+
+
+footer {
+	background-color: #fff;
+	text-align: center;
+	font-size: 4.5vh;
+	text-decoration: none;
+	font-family: Monaco;
+}
