@@ -58,11 +58,12 @@ a:active{
 
 .noBullet {
     list-style-type: none;
-    max-width: auto;
+    max-width: 300px;
+    width:100%;
     height: auto;
-    margin: 0;
-    padding: 0;
-    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 10px;
 }
 
 #listItalic{
