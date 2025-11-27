@@ -45,11 +45,13 @@ a.buy-link:hover{
 /* Active effect for buy links */
 .tshirt-gallery {
     width: 100%;
+    max-width: 1200px;
+    margin: 0 auto 30px;
+    display: flex;
     justify-content: center;
-    gap: 20px;
+    align-items: flex-start;
+    gap: 40px;
     flex-wrap: wrap;
-    margin-bottom: 30px;
-    max-width: 250px;
 }
 
 h2.underline {
