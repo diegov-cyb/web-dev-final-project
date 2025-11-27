@@ -10,6 +10,7 @@
 }
 
 .header{
+    text-align: center;;
     font-family:'Times New Roman', Times, serif ;
     font-size: 3vh;
     font-weight: bold;
@@ -56,15 +57,22 @@ a:active{
     text-decoration: none;
 }
 
-.noBullet {
-    list-style-type: none;
-    max-width: 300px;
-    width:100%;
-    height: auto;
+.artist-photo {
+    max-width: 250px;
+    width:250%;
+    object-fit: cover;
     display: block;
     margin: 0 auto 20px;
     border-radius: 10px;
+    padding: 10px;
 }
+
+.noBullet {
+    list-style-type: none;
+    text-align: center;
+    padding-left: 10px;
+}
+
 
 #listItalic{
     font-style: italic;
